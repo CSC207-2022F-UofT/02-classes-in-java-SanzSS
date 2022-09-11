@@ -169,8 +169,8 @@ public class Silly implements Comparable<Silly>{
             return false;
         }
 
-        Silly other = (Silly) o.name; // To access .name of o, we need to cast it.
-        return this.name == other;
+        Silly other = (Silly) o; // To access .name of o, we need to cast it.
+        return this.name == other.name;
         // Hint: to compare strings, we need to use .equals()
         //       e.g. s1.equals(s2)
     }
