@@ -78,7 +78,7 @@ public class Silly implements Comparable<Silly>{
      * @param str1 a string for this Silly instance's name.
      * @param str2 a string for this Silly instance's name.
      */
-    puclic Silly(String str1, String str2){
+    public Silly(String str1, String str2){
         this.name = str1 + str2;
     }
     
