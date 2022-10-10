@@ -37,7 +37,6 @@ public class Silly implements Comparable<Silly>{
         // This method uses the static variable and increases it.
         int to_return = my_static;
         my_static += 1;
-
         return to_return;
     }
 
